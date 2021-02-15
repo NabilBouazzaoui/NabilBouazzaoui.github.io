@@ -1,0 +1,243 @@
+body{
+    background-color: #DCE1D3 ;
+    font-family: 'Quicksand', sans-serif;
+    text-align: justify;
+}
+
+header{
+    background-color: #5E8AB4;
+}
+
+a{
+    color: white;
+    margin: 10px;
+    font-size: 20px;
+}
+h1{
+    color :  #002554;
+    font-family: 'Lemon', cursive;
+}
+h2{
+    color : #002554;
+}
+.positionh1{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.positionh2{
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.image-animer{
+    position: relative;
+    height: 500px;
+    animation: pluse 10s infinite;
+    font-family: 'Lemon', cursive;
+}
+
+@keyframes pluse {
+    
+    0%{
+        background-image: url("images/image-creative.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+    50%{
+        background-image: url("images/image-ti-bateau.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    100%{
+        background-image: url("images/image-ville.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+}
+.motdebienvenue{
+    color: #002554;;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+.titre-prsentation{
+    margin: 40px 40px 50px 40px;
+    text-align: center;
+}
+span{
+    display: block;
+    text-align: center;
+}
+
+.lienPage{
+    color: darkblue;
+    text-decoration: none;
+}
+hr{
+    margin: 60px;
+
+}
+.col-sm{
+    padding-bottom: 40px;
+    padding-left: 30px;
+    margin-bottom: 35px;
+}
+
+/**********************************************
+*
+* footer css
+*
+**********************************************/
+footer{
+    background-color: #8FBABF;
+}
+.wrapper{
+    text-align: center;
+}
+.wrapper ul {
+    list-style: none;
+    margin: 0;
+}
+.wrapper ul li {
+    width: 75px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    border-radius: 50%;
+   display: inline;
+
+  }
+  .wrapper ul li a:hover {
+    border-radius: 20px solid #FFC72C;
+    box-shadow: 0 0 30px #FFC72C;
+  }
+  .sub-footer{
+      background-color: #002554;
+      color: white;
+  }
+  /**************************************************************
+  *
+  * CSS page blog
+  *
+  ***************************************************************/
+  .espacetitre{
+      margin-bottom: 80px;
+  }
+  .clortitre{
+      background-color:#DEB887;
+      padding: 50px;
+      border-radius: 20px;
+      margin: 20px;
+  }
+  h2{
+      width: 600px;
+  }
+   /**************************************************************
+  *
+  * CSS Contacter moi
+  *
+  ***************************************************************/
+  .nouscontacter{
+    width: 45%;
+}
+.lignenouscontacter{
+    width: 45%;
+}
+.contenue-form{
+    margin : 29px 24px 120px 20px;
+}
+.nom{
+    width: 395px;
+}
+.prenom{
+    width: 500px;
+    margin: 0 0 0 20px;
+}
+.tele-courriel{
+    width: 656px;
+}
+input, textarea, select{
+    background-color:#d5dad5;
+    height: 66px;
+    border: none;
+    margin-bottom:34px;
+    font-weight: medium;
+    font-size: 24px;
+    border-radius: 5px;
+    color:  #034726;
+}
+
+:placeholder-shown{
+    padding: 10px;
+}
+textarea{
+    Width:975px;
+    Height:285px;
+}
+.monform{
+    position: relative;
+}
+
+#button{
+    position: absolute;
+    width: 310px;
+    background-color: #A2E3C4;;
+    color: rgb(17, 16, 16);
+    border-radius: 5px;
+    height: 86px;
+
+ }
+
+ .projet-1{
+     border-radius: 90%;
+ }
+
+/*******************************************
+*
+* Page présentation
+*
+***********************************************/
+
+.photoProgrammeur{
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 2rem;
+    margin-right: 5rem;
+  
+}
+.presentation{
+    display: flex;
+
+}
+.pragraphPresentation{
+    background-color: #AEBBA7;
+    padding: 20px;
+    margin-top: 100px;
+    width:60%;
+}
+.containerPresentation{
+    margin: 0 auto;
+    width: 1024px;
+}
+.imagePresentation{
+
+    margin-left: 30px;
+    
+}
+#coleurspan {
+    margin-top: 20px;
+
+}
+.monarticle{
+    background-color: #AEBBA7 ;
+}
+
+.numbercapatche{
+font-family: 'Hanalei', cursive;
+text-align: centre;
+font-size: 60px;
+}
+
